@@ -1,5 +1,5 @@
-.sprite-sprite {
-  background-image: url('/imagens/sprite-s1e1f3a7a9e.png');
+.sprite-sprite, .sprite-icone-ok, .sprite-icone-x {
+  background-image: url('../imagens/sprite-sed99d15b73.png');
   background-repeat: no-repeat;
 }
 
@@ -616,7 +616,7 @@ header .container {
 
 .plano {
   background: white;
-  width: 18em;
+  width: 288px;
   display: inline-block;
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em;
@@ -675,18 +675,17 @@ header .container {
   margin-left: 2em;
 }
 
-.icone-check, .icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
+.sprite-icone-ok {
+  background-position: 0 0;
+}
+
+.sprite-icone-x {
+  background-position: 0 -20px;
+}
+
+.sprite-icone-check, .sprite-icone-x {
   width: 18px;
   height: 18px;
-}
-
-.icone-check {
-  background-position: -5px -5px;
-}
-
-.icone-x {
-  background-position: -33px -5px;
 }
 
 /** Blog **/
@@ -815,8 +814,8 @@ footer::before {
 }
 
 footer .container {
-  padding-top: 3em;
-  height: 6.5em;
+  padding-top: 48px;
+  height: 104px;
   position: relative;
 }
 
